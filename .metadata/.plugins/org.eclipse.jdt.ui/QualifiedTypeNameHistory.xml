@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.mackenzie.sgc.form.LoginForm"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.spi.orbutil.fsm.Action"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="javax.annotation.ManagedBean"/>
+<fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="br.com.mackenzie.sgc.mb.Teste"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+package br.com.mackenzie.sgc.mb;
+
+public class Teste {
+
+	
+	public String teste(){
+		return "teste....";
+	}
+}

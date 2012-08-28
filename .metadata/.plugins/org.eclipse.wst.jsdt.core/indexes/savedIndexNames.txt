@@ -1,0 +1,2 @@
+INDEX VERSION 1.122+C:\workspace\mackenzie\SGC\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2659726855.index

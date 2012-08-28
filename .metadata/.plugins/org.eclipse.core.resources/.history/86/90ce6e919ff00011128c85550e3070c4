@@ -1,0 +1,32 @@
+package br.com.mackenzie.sgc.mb;
+
+import java.awt.event.ActionListener;
+
+
+
+import br.com.mackenzie.sgc.form.LoginForm;
+
+public class LoginMB {
+
+	private LoginForm loginForm;
+
+	public LoginMB() {
+		super();
+		loginForm = new LoginForm();
+	}
+
+	public String logar() {
+
+		System.out.println(loginForm);
+		return "login";
+	}
+
+	public LoginForm getLoginForm() {
+		return loginForm;
+	}
+
+	public void setLoginForm(LoginForm loginForm) {
+		this.loginForm = loginForm;
+	}
+
+}

@@ -1,0 +1,18 @@
+package br.com.mackenzie.sgc.mb;
+
+import javax.xml.ws.Endpoint;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Teste t = new Teste();
+		
+		Endpoint.publish("http://localhost:8080/Teste", implementor)
+	}
+
+}

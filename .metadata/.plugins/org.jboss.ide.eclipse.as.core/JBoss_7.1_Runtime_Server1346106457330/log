@@ -1,0 +1,412 @@
+!SESSION 2012-08-27 19:23:48.277 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_30
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:28:32.672
+!MESSAGE Module SGC published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 19:28:38.254
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 19:28:50.483
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-27 19:28:50.700
+!MESSAGE Module SGC on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:36:09.508
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:36:19.573
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:36:59.638
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:37:16.972
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:37:29.235
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:48:26.202
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:48:45.959
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:49:02.791
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:50:39.906
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:50:43.937
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:51:40.156
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:51:44.154
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:55:54.667
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:56:49.306
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:57:17.979
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:57:42.375
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:57:48.042
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:58:02.904
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:58:30.222
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:58:36.503
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:58:53.393
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 19:59:10.961
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:02:42.529
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:03:03.445
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:03:51.005
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:04:14.738
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:05:38.873
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:06:28.824
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:06:45.256
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:06:57.576
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:08:17.366
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:08:38.735
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:09:06.115
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:09:35.881
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:09:47.858
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:09:55.852
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:12:11.080
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:13:14.680
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:14:24.551
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:14:31.910
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-08-27 20:15:04.356
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:15:04.594
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:15:04.595
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:15:04.596
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 20:15:09.636
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 20:15:15.231
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-27 20:15:15.462
+!MESSAGE Module SGC on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:15:50.447
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:15:50.459
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:15:50.460
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 20:34:38.287
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:34:38.345
+!MESSAGE 4 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 20:34:44.350
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-27 20:34:44.685
+!MESSAGE Module SGC on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:37:25.208
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:38:17.094
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:39:17.075
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:39:19.785
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:41:59.337
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:43:10.498
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:43:26.643
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:44:39.004
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:46:11.215
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:47:07.186
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:47:23.427
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:47:38.437
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:47:57.638
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:48:11.551
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:48:23.067
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:48:38.560
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:49:18.877
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:49:21.521
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:49:21.522
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:49:21.522
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 20:49:33.796
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 20:49:39.599
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-27 20:49:39.857
+!MESSAGE Module SGC on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:50:45.503
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:50:53.493
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:51:47.370
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:51:47.371
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:51:47.371
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:51:57.112
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 20:52:02.170
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 20:52:08.117
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-27 20:52:08.388
+!MESSAGE Module SGC on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:52:39.397
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:52:59.062
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:53:26.772
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:55:08.082
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:55:36.149
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:55:36.150
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:55:36.151
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 20:55:46.548
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 20:55:52.457
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:58:42.848
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:59:38.141
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 20:59:44.139
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:59:55.205
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:59:55.206
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 20:59:55.207
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:00:06.237
+!MESSAGE 2 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 21:00:11.275
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 21:00:17.378
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-27 21:00:17.734
+!MESSAGE Module SGC on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:01:33.111
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:02:02.681
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:02:26.098
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:02:42.289
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:04:51.862
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:05:01.064
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:05:13.430
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:05:13.431
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:05:13.431
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:14:16.816
+!MESSAGE 4 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 21:14:21.860
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 21:14:27.959
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-27 21:14:28.252
+!MESSAGE Module SGC on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:14:55.120
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:14:59.517
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:15:05.233
+!MESSAGE 1 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:15:12.806
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:15:12.807
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:15:12.807
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-27 21:16:16.466
+!MESSAGE 4 files modified in module SGC
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-27 21:16:21.521
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-27 21:16:27.359
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2012-08-27 21:16:27.601
+!MESSAGE Module SGC on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:24:03.064
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:24:03.073
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-27 21:24:03.073
+!MESSAGE Server processes have been terminated.

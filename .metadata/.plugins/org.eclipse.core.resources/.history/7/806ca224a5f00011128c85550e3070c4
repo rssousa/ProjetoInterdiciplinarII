@@ -1,0 +1,12 @@
+package br.com.mackenzie.sgc.mb;
+
+import javax.jws.WebService;
+
+@WebService
+public class Teste {
+
+	
+	public String teste(){
+		return "teste....";
+	}
+}
