@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<ui:composition template="template/home-template.xhtml" 
+    xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:define name="corpo_da_pagina">
+	<h:panelGrid columns="1" style="float:right;padding-right:2%;">
+	     
+	    <p:panel header="Autenticação">	        
+		    <h:form id="id_login_formulario">
+			    <h:panelGrid columns="2">
+				    <h:outputLabel for="usuario" value="Usuário"/>
+				    <p:inputText id="usuario" value="#{loginMB.login.vrLogin}"/>
+				    <h:outputLabel for="senha" value="Senha" />
+				    <p:password id="senha" value="#{loginMB.login.vrSenha}"/>
+				    <br />
+				    <p:commandButton styleClass="btn" value="Enviar" action="#{loginMB.logar}"/>
+			    </h:panelGrid>
+			</h:form>				
+	    </p:panel>
+	   <p:panel header="Cadastro de Usuario">
+	       <h:form>
+	        <h:panelGrid columns="2">
+	            <h:outputLabel value="Login" />
+	            <p:inputText value="#{cadastroUsuarioMB.usuario.login}"/>
+	            <h:outputLabel value="Senha" />
+	            <p:password value="#{cadastroUsuarioMB.usuario.senha}"/>
+	            <h:outputLabel value="Confirmar Senha" />
+	            <p:password value="#{cadastroUsuarioMB.usuario.confirmacaoSenha}"/>
+	            <br />
+	            <p:commandButton value="Cadastrar" action="#{cadastroUsuarioMB.cadastrar}"/>   
+	            <br />
+	        </h:panelGrid>
+	        </h:form>
+        </p:panel>   
+	</h:panelGrid>    
+</ui:define>
+</ui:composition>

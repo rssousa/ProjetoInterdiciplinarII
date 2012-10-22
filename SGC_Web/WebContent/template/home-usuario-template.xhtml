@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"> 
+
+<h:head>
+   <script type="text/javascript" src="js/calendar-translator.js"></script>   
+</h:head> 
+<body>	     
+   
+<p:layout fullPage="true">
+
+    <p:ajax event="toggle"   />
+    <p:ajax event="close"   />
+
+    <p:layoutUnit id="top" position="north" size="100" >
+	    <ui:insert name="topo_da_pagina">Topo da Pagina</ui:insert>
+	</p:layoutUnit>  
+
+    <p:layoutUnit position="west" size="200" style="width:100px" header="Tarefas" resizable="true"  collapsible="true">
+        <h:form style="text-align: center">
+            <ui:insert name="menu">
+                <p:accordionPanel multiple="true">
+					<p:tab title="Curriculo" titleStyle="height:30px;">
+				        <p:commandLink action="#{menuVerticalMB.formularioCurriculo}">
+				            <h:outputText value="Curriculo" />				            
+				        </p:commandLink>
+					</p:tab>
+					<p:tab title="Teste" titleStyle="height:30px;">
+					    <p:commandLink action="#{menuVerticalMB.formularioTeste}">
+				            <h:outputText value="Teste" />				            
+				        </p:commandLink>					
+					</p:tab>
+					<p:tab title="Teste 2" titleStyle="height:30px;">
+						teste1
+					</p:tab>
+				</p:accordionPanel>				
+            </ui:insert> 
+        </h:form>
+    </p:layoutUnit>
+
+    <p:layoutUnit position="center">        
+       <ui:insert name="corpo_da_pagina">Conteudo</ui:insert>        
+    </p:layoutUnit>
+    
+    <p:layoutUnit id="bottom" position="south" size="100" >
+	    <ui:insert name="rodape_da_pagina">Rodepe da Pagina</ui:insert>
+	</p:layoutUnit>
+
+</p:layout>
+                            
+</body> 
+</html>

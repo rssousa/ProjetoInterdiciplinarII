@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:form id="formulario">
+      <p:panel header="Dados Pessoais">
+          <h:panelGrid columns="2">
+	     <h:outputLabel value="Nome" />
+	     <p:inputText value="#{cadastroCompletoMB.cadastroCurriculo.nome}" />
+	     <h:outputLabel value="Data De Nascimento" />
+	     <p:calendar locale="pt_BR" value="#{cadastroCompletoMB.cadastroCurriculo.dtNascimento}" />
+	     <h:outputLabel value="Estado Civil" />
+            <p:selectOneMenu value="#{cadastroCompletoMB.cadastroCurriculo.estadoCivil}">
+                <f:selectItem itemValue="Casado" itemLabel="Casado"/>
+                <f:selectItem itemValue="Solteiro" itemLabel="Solteiro"/>
+            </p:selectOneMenu>
+            <h:outputLabel value="E-Mail" />
+            <p:inputText value="#{cadastroCompletoMB.cadastroCurriculo.eMail}" />
+            <h:outputLabel value="Telefone Residêncial" />
+            <p:inputMask mask="(099)9999-9999" value="#{cadastroCompletoMB.cadastroCurriculo.telefoneResidencial}" />
+            <h:outputLabel value="Telefone Alternativo"/>
+            <p:inputMask mask="(099)9999-9999" value="#{cadastroCompletoMB.cadastroCurriculo.telefoneAlternativo}" />
+            <h:outputLabel value="Celular" />
+            <p:inputText value="#{cadastroCompletoMB.cadastroCurriculo.celular}" />
+            <h:outputLabel value="CPF" />
+            <p:inputMask mask="999.999.999-99" value="#{cadastroCompletoMB.cadastroCurriculo.cpf}" />                         
+          </h:panelGrid>
+      </p:panel>
+      
+      <p:panel header="Endereço">
+           <h:panelGrid columns="2">
+              <h:outputLabel value="Logradouro"/>
+               <p:inputText value="#{cadastroCompletoMB.cadastroCurriculo.logradouro}"/>
+               <h:outputLabel value="Bairro"/>
+               <p:inputText value="#{cadastroCompletoMB.cadastroCurriculo.bairro}"/>                 
+               <h:outputLabel value="UF"/>               
+	           <p:selectOneMenu value="#{cadastroCompletoMB.cadastroCurriculo.dsUf}">		             
+		           <f:selectItems value="#{cadastroCompletoMB.comboUf}" var="uf" itemValue="#{uf.cdDicionario}"  itemLabel="#{uf.nmDicionario}"/>   
+		       </p:selectOneMenu>                         
+               <h:outputLabel value="Cidade"/>
+               <p:selectOneMenu value="#{cadastroCompletoMB.cadastroCurriculo.cidade}">
+             <f:selectItem itemValue="São Paulo" itemLabel="São Paulo"/>
+             <f:selectItem itemValue="Osasco" itemLabel="Osasco"/>
+         </p:selectOneMenu>
+         <h:outputLabel value="CEP" />
+         <p:inputMask mask="99999-999" value="#{cadastroCompletoMB.cadastroCurriculo.cep}"/>
+         </h:panelGrid>
+      </p:panel>
+      
+      <p:panel header="Formação Academica">           
+          <h:panelGrid columns="2">
+              <h:outputLabel  value="Nível" />
+              <p:selectOneMenu  value="#{cadastroCompletoMB.cadastroCurriculo.nivel}">
+	           <f:selectItem itemValue="superior" itemLabel="Superior"/>
+	           <f:selectItem itemValue="tecnico" itemLabel="Técnico"/>
+	       </p:selectOneMenu>
+         <h:outputLabel value="Instituição" />         
+          <p:selectOneMenu value="#{cadastroCompletoMB.cadastroCurriculo.instituicao}">		             
+	            <f:selectItems value="#{cadastroCompletoMB.comboIntituicoes}" var="area" itemValue="#{area.nmDicionario}"  itemLabel="#{area.nmDicionario}"/>   
+	      </p:selectOneMenu>        
+	     <h:outputLabel value="Curso" />
+			<p:inputText value="#{cadastroCompletoMB.cadastroCurriculo.curso}"/>
+
+				<h:outputLabel value="Data de Inicio" />
+				<p:calendar locale="pt_BR"
+					value="#{cadastroCompletoMB.cadastroCurriculo.inicio}" />
+				<h:outputLabel value="Conclusao" />
+				<p:calendar locale="pt_BR"
+					value="#{cadastroCompletoMB.cadastroCurriculo.fim}" />
+				<br />
+				<p:commandButton value="Inserir Formação"
+					update="lista_escolaridade"
+					action="#{cadastroCompletoMB.cadastrarFormacoes}" />
+				<br />
+				<p:dataTable id="lista_escolaridade"
+					value="#{cadastroCompletoMB.escolaridades}" var="escolaridade"
+					emptyMessage="Nenhuma Escolaridade Adicionada">
+					<f:facet name="header">
+                Escolaridades Adicionadas
+            </f:facet>
+
+					<p:column headerText="Nível">
+						<h:outputText value="#{escolaridade.nivel}" />
+					</p:column>
+
+					<p:column headerText="Instituição">
+						<h:outputText value="#{escolaridade.instituicao}" />
+					</p:column>
+
+					<p:column headerText="Curso">
+						<h:outputText value="#{escolaridade.curso}" />
+					</p:column>
+
+					<p:column headerText="Data Inicio">
+						<h:outputText value="#{escolaridade.dtInicio}">
+							<f:convertDateTime pattern="dd/MM/yyyy" />
+						</h:outputText>
+					</p:column>
+
+					<p:column headerText="Conclusão">
+						<h:outputText value="#{escolaridade.dtFim}">
+							<f:convertDateTime pattern="dd/MM/yyyy" />
+						</h:outputText>
+					</p:column>
+
+					<p:column headerText="Ações">
+
+					</p:column>
+					<!-- 
+           <f:facet name="footer">  
+                Formações Adicionadas.  
+           </f:facet>
+            -->
+				</p:dataTable>
+		</h:panelGrid>
+     </p:panel>  
+     
+     <p:panel header="Interesses">
+         <h:panelGrid columns="2">
+             <h:outputLabel value="Areas de Interesse" />
+             <p:selectOneMenu value="#{cadastroCompletoMB.cadastroCurriculo.dsAreaDeInteresse}">		             
+	            <f:selectItems value="#{cadastroCompletoMB.comboAreaInterresses}" var="area" itemValue="#{area.nmDicionario}"  itemLabel="#{area.nmDicionario}"/>   
+	        </p:selectOneMenu>
+              <br />
+              <p:commandButton value="Inserir Area de Interesse" update="lista_areas_interesses" action="#{cadastroCompletoMB.cadastrarAreaDeInteresse}"/>
+              <br />
+              <p:dataTable
+                  id="lista_areas_interesses"
+                  value="#{cadastroCompletoMB.interesses}"
+                  var="interesse"
+                  emptyMessage="Nenhuma Area de Interesse Adicionada">
+                  <f:facet name="header">
+                      Lista de Areas de Interesse
+                  </f:facet>
+                  <p:column headerText="Area de Interesse">
+                      <h:outputText value="#{interesse.areaInteresse}" />
+                  </p:column>
+                  <p:column headerText="Ações">
+                      
+                  </p:column>
+              </p:dataTable>
+         </h:panelGrid>
+     </p:panel>
+     
+     <p:panel header="Qualificações">
+      <h:panelGrid columns="2">
+      <h:outputLabel value="Nível"/>
+      <p:inputText value="#{cadastroCompletoMB.cadastroCurriculo.nivelQualificacao}"/>
+      <h:outputLabel value="Qualificação" />
+       <p:selectOneMenu value="#{cadastroCompletoMB.cadastroCurriculo.dsQualificacao}">		             
+	       <f:selectItems value="#{cadastroCompletoMB.comboQualificacao}" var="qualificacao" itemValue="#{qualificacao.nmDicionario}"  itemLabel="#{qualificacao.nmDicionario}"/>   
+	   </p:selectOneMenu>    
+      <br/>            
+      <p:commandButton value="Inserir Qualificação" update="lista_qualificacoes" action="#{cadastroCompletoMB.cadastrarQualificacao}"/>
+      <br />
+      <p:dataTable
+          id="lista_qualificacoes"
+          value="#{cadastroCompletoMB.qualificacoes}"
+          var="qualificacao"
+          emptyMessage="Nenhuma Qualificação Adicionada">
+          <f:facet name="header">
+              Lista de Qualificações
+          </f:facet>
+          <p:column headerText="Qualifição">
+              <h:outputText value="#{qualificacao.dsQualificacao}"/>
+          </p:column>
+          <p:column headerText="Nível">
+              <h:outputText value="#{qualificacao.nivelQualificacao}"/>
+          </p:column>
+          <p:column headerText="Ações">
+           
+          </p:column> 
+      </p:dataTable>
+      </h:panelGrid>      
+     </p:panel>
+                       
+     <h:panelGrid columns="2">
+         <br />
+         <p:commandButton value="Cadastrar" action="#{cadastroCompletoMB.cadastrar}" />
+         <br/>
+     </h:panelGrid>                                                     		    		              
+</h:form>
+</html>

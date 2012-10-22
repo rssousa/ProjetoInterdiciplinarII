@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"> 
+
+<h:head>
+   <script type="text/javascript" src="js/calendar-translator.js"></script>   
+</h:head> 
+<body>	     
+   
+<p:layout fullPage="true" >
+
+	<p:layoutUnit id="top" position="north" size="100" >
+	    <ui:insert name="topo_da_pagina">Topo da Pagina</ui:insert>
+	</p:layoutUnit>     
+	
+	<p:layoutUnit  position="center">
+	    <ui:insert name="corpo_da_pagina">Corpo da Pagina</ui:insert>  
+	</p:layoutUnit>
+	
+	<p:layoutUnit id="bottom" position="south" size="100" >
+	    <ui:insert name="rodape_da_pagina">Rodepe da Pagina</ui:insert>
+	</p:layoutUnit>
+	                        
+</p:layout>
+	
+</body> 
+</html>
